@@ -2,14 +2,14 @@ name: Daily Lexus Search
 
 on:
   schedule:
-    # 7:45 CEST (UTC+2 in summer) = 05:45 UTC
-    # 7:45 CET  (UTC+1 in winter) = 06:45 UTC
-    # Using 05:45 UTC — runs year-round at approximately 7:45 local time
+    # 7:45 CEST (UTC+2 summer) = 05:45 UTC
     - cron: '45 5 * * *'
-  workflow_dispatch:   # Allow manual trigger from GitHub UI
+  push:
+    branches: [main]       # also run on every push (keeps schedule alive)
+  workflow_dispatch:        # manual trigger from GitHub UI
 
 permissions:
-  contents: write      # Needed to commit Excel back to repo
+  contents: write
 
 jobs:
   search:
@@ -38,6 +38,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name  "github-actions[bot]"
           git add lexus_cars.xlsx lexus_combined.json lexus_as24.json
-          # Only commit if something changed
-          git diff --staged --quiet || git commit -m "Daily update $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git diff --staged --quiet || git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
