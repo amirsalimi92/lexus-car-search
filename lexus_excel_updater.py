@@ -1,6 +1,5 @@
 """
-Lexus Excel Updater
-Reads lexus_combined.json and updates lexus_cars.xlsx with price history tracking.
+Lexus Excel Updater — with date_inserted and date_last_changed tracking
 """
 
 import json, os
@@ -9,7 +8,7 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR   = os.path.dirname(os.path.abspath(__file__))
 EXCEL_PATH = os.path.join(DATA_DIR, "lexus_cars.xlsx")
 JSON_PATH  = os.path.join(DATA_DIR, "lexus_combined.json")
 
@@ -36,8 +35,8 @@ COLUMNS = [
     ("توضیحات (آلمانی)",    "description_de"),
     ("توضیحات (فارسی)",     "description_fa"),
     ("لینک",               "link"),
-    ("اولین مشاهده",        "first_seen"),
-    ("آخرین مشاهده",        "last_seen"),
+    ("تاریخ اضافه شدن",     "date_inserted"),      # NEW: when first found
+    ("آخرین تغییر",         "date_last_changed"),  # NEW: when price/data changed
     ("وضعیت",              "status"),
 ]
 
@@ -55,14 +54,14 @@ WRAP_ALIGN  = Alignment(wrap_text=True, vertical="top")
 THIN        = Side(style="thin", color="CCCCCC")
 BORDER      = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 
-COL_WIDTHS  = {
+COL_WIDTHS = {
     "منبع": 12, "مدل": 10, "واریانت": 12, "عنوان آگهی": 35,
     "سال": 6, "اولین ثبت": 10, "کیلومتر": 12, "رنگ": 10,
     "سوخت": 16, "گیربکس": 12, "قیمت (€)": 10, "قیمت قبلی (€)": 12,
     "تغییر قیمت (€)": 14, "ارزیابی قیمت": 14, "سانروف/پانوراما": 16,
     "بدون تصادف": 12, "تعداد مالکان قبلی": 16, "شهر": 14, "کشور": 7,
     "توضیحات (آلمانی)": 40, "توضیحات (فارسی)": 40,
-    "لینک": 20, "اولین مشاهده": 12, "آخرین مشاهده": 12, "وضعیت": 12,
+    "لینک": 20, "تاریخ اضافه شدن": 18, "آخرین تغییر": 18, "وضعیت": 12,
 }
 
 
@@ -71,6 +70,10 @@ def col_for(field):
         if f == field:
             return i
     return None
+
+
+def now_str():
+    return datetime.now().strftime("%Y-%m-%d %H:%M")
 
 
 def load_or_create_wb():
@@ -90,35 +93,44 @@ def load_or_create_wb():
 
 
 def get_existing_rows(ws):
-    link_col = col_for("link")
-    price_col = col_for("price_eur")
+    link_col   = col_for("link")
+    price_col  = col_for("price_eur")
     status_col = col_for("status")
+    di_col     = col_for("date_inserted")
     rows = {}
     if not link_col:
-        return rows, link_col, price_col, status_col
+        return rows, link_col, price_col, status_col, di_col
     for row in range(2, ws.max_row + 1):
         link = ws.cell(row=row, column=link_col).value
         if link:
             rows[link] = {
-                "row": row,
-                "price": ws.cell(row=row, column=price_col).value if price_col else None,
-                "status": ws.cell(row=row, column=status_col).value if status_col else "",
+                "row":           row,
+                "price":         ws.cell(row=row, column=price_col).value if price_col else None,
+                "status":        ws.cell(row=row, column=status_col).value if status_col else "",
+                "date_inserted": ws.cell(row=row, column=di_col).value if di_col else "",
             }
-    return rows, link_col, price_col, status_col
+    return rows, link_col, price_col, status_col, di_col
 
 
-def write_row(ws, row_num, car, status, prev_price=None):
-    today = datetime.now().strftime("%Y-%m-%d")
+def write_row(ws, row_num, car, status, prev_price=None, original_date_inserted=None):
     car["status"] = status
-    car["price_change"] = (car["price_eur"] - prev_price) if prev_price and car.get("price_eur") else None
+    car["price_change"]  = (car["price_eur"] - prev_price) if prev_price and car.get("price_eur") else None
     car["prev_price_eur"] = prev_price
-    if status == "جدید":
-        car["first_seen"] = today
-    car["last_seen"] = today
+
+    # date_inserted: keep original if exists, else now
+    car["date_inserted"] = original_date_inserted or now_str()
+
+    # date_last_changed: only update when something actually changed
+    if status in ("جدید", "تغییر قیمت"):
+        car["date_last_changed"] = now_str()
+    elif not car.get("date_last_changed"):
+        car["date_last_changed"] = now_str()
 
     fill = PatternFill("solid", fgColor=STATUS_COLORS.get(status, "FFFFFF"))
     for col, (_, field) in enumerate(COLUMNS, 1):
-        val = car.get(field, "") or ""
+        val = car.get(field, "") 
+        if val is None:
+            val = ""
         cell = ws.cell(row=row_num, column=col, value=val)
         cell.font = CELL_FONT
         cell.alignment = WRAP_ALIGN
@@ -135,20 +147,23 @@ def run():
 
     wb, existed = load_or_create_wb()
     ws = wb.active
-    today = datetime.now().strftime("%Y-%m-%d")
+
+    stats = {"new": 0, "changed": 0, "same": 0, "removed": 0}
 
     if existed:
-        existing, link_col, price_col, status_col = get_existing_rows(ws)
+        existing, link_col, price_col, status_col, di_col = get_existing_rows(ws)
         new_links = {c["link"] for c in new_listings if c.get("link")}
 
-        # Mark removed
+        # Mark removed listings
         for link, info in existing.items():
             if link not in new_links and info["status"] != "حذف شده":
-                ws.cell(row=info["row"], column=status_col).value = "حذف شده"
-                ws.cell(row=info["row"], column=status_col).fill = PatternFill("solid", fgColor=STATUS_COLORS["حذف شده"])
-                lsc = col_for("last_seen")
-                if lsc:
-                    ws.cell(row=info["row"], column=lsc).value = today
+                sc = col_for("status")
+                dlc = col_for("date_last_changed")
+                ws.cell(row=info["row"], column=sc).value = "حذف شده"
+                ws.cell(row=info["row"], column=sc).fill = PatternFill("solid", fgColor=STATUS_COLORS["حذف شده"])
+                if dlc:
+                    ws.cell(row=info["row"], column=dlc).value = now_str()
+                stats["removed"] += 1
 
         next_row = ws.max_row + 1
         for car in new_listings:
@@ -157,28 +172,35 @@ def run():
                 prev = existing[link]
                 old_price = prev["price"]
                 new_price = car.get("price_eur")
+                original_di = prev.get("date_inserted", "")
                 if old_price and new_price and int(old_price) != int(new_price):
-                    write_row(ws, prev["row"], car, "تغییر قیمت", prev_price=int(old_price))
+                    write_row(ws, prev["row"], car, "تغییر قیمت",
+                              prev_price=int(old_price),
+                              original_date_inserted=original_di)
+                    stats["changed"] += 1
                 else:
-                    lsc = col_for("last_seen")
-                    if lsc:
-                        ws.cell(row=prev["row"], column=lsc).value = today
+                    # No change — just update status cell
                     sc = col_for("status")
                     if sc:
                         ws.cell(row=prev["row"], column=sc).value = "بدون تغییر"
+                        ws.cell(row=prev["row"], column=sc).fill = PatternFill("solid", fgColor=STATUS_COLORS["بدون تغییر"])
+                    stats["same"] += 1
             else:
                 write_row(ws, next_row, car, "جدید")
                 next_row += 1
+                stats["new"] += 1
     else:
         for i, car in enumerate(new_listings, 2):
             write_row(ws, i, car, "جدید")
+        stats["new"] = len(new_listings)
 
     # Column widths
     for col, (header, _) in enumerate(COLUMNS, 1):
         ws.column_dimensions[get_column_letter(col)].width = COL_WIDTHS.get(header, 14)
 
     wb.save(EXCEL_PATH)
-    print(f"Excel saved: {EXCEL_PATH}")
+    print(f"Excel saved — New: {stats['new']} | Changed: {stats['changed']} | Removed: {stats['removed']} | Same: {stats['same']}")
+    return stats
 
 
 if __name__ == "__main__":
