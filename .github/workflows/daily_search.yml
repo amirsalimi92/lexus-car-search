@@ -39,4 +39,5 @@ jobs:
           git config --local user.name  "github-actions[bot]"
           git add lexus_cars.xlsx lexus_combined.json lexus_as24.json
           git diff --staged --quiet || git commit -m "Auto update $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin main
           git push
