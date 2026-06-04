@@ -138,6 +138,8 @@ def parse(raw, target_group):
         "country": loc.get("countryCode", ""),
         "link": BASE + url_path if url_path else "",
         "description_fa": "",
+        "date_inserted": datetime.now().isoformat(),
+        "date_last_changed": datetime.now().isoformat(),
     }
 
 
