@@ -1,34 +1,8 @@
 {
-  "last_updated": "2026-06-10T09:07:25.810918",
+  "last_updated": "2026-06-11T09:54:12.420675",
   "source": "AutoScout24",
-  "total": 52,
+  "total": 53,
   "listings": [
-    {
-      "source": "AutoScout24",
-      "listing_id": "1edb0c6f-3e7a-4bb0-9a1a-173e9fa1cf44",
-      "model": "Lexus NX",
-      "variant": "NX 300h",
-      "title": "NX 300h E-FOUR",
-      "description_de": "",
-      "price_eur": 17500,
-      "price_label": "Fairer Preis",
-      "prev_price_eur": null,
-      "first_registration": "02/2016",
-      "year": "2016",
-      "mileage": "184.992 km",
-      "fuel": "Elektro/Benzin",
-      "transmission": "Automatik",
-      "color": "Schwarz",
-      "sunroof": "Nein",
-      "no_accident": "Ja",
-      "previous_owners": 2,
-      "city": "Dormagen",
-      "country": "DE",
-      "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-nx-300h-e-four-elektro-benzin-schwarz-cat_ma43mo75908-1edb0c6f-3e7a-4bb0-9a1a-173e9fa1cf44",
-      "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187430",
-      "date_last_changed": "2026-06-10T09:07:05.187432"
-    },
     {
       "source": "AutoScout24",
       "listing_id": "a1e91e0f-5cc6-4a06-8adb-7b6ef148ddd2",
@@ -52,8 +26,8 @@
       "country": "FR",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-3-5-v6-313-e-four-executive-e-cvt-sonstige-weiss-cat_ma43mo19238-a1e91e0f-5cc6-4a06-8adb-7b6ef148ddd2",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657911",
-      "date_last_changed": "2026-06-10T09:06:38.657912"
+      "date_inserted": "2026-06-11T09:53:21.893769",
+      "date_last_changed": "2026-06-11T09:53:21.893770"
     },
     {
       "source": "AutoScout24",
@@ -78,8 +52,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-f-sport-elektro-benzin-blau-cat_ma43mo19238-4b2d601e-a921-4deb-b81e-d881340768d7",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657921",
-      "date_last_changed": "2026-06-10T09:06:38.657922"
+      "date_inserted": "2026-06-11T09:53:21.893787",
+      "date_last_changed": "2026-06-11T09:53:21.893788"
     },
     {
       "source": "AutoScout24",
@@ -104,8 +78,8 @@
       "country": "NL",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-4wd-comfort-line-trekhaak-2000-kg-trekgewicht-elektro-benzin-grau-cat_ma43mo19238-aa92faff-5996-4d4b-bb11-394c751a1fd4",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657931",
-      "date_last_changed": "2026-06-10T09:06:38.657932"
+      "date_inserted": "2026-06-11T09:53:21.893803",
+      "date_last_changed": "2026-06-11T09:53:21.893804"
     },
     {
       "source": "AutoScout24",
@@ -130,8 +104,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-200t-nx-200-t-200t-f-sport-zuverlaessiger-crossover-benzin-grau-cat_ma43mo20812-40e149ec-25e4-4995-a136-35967bcf37ec",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187445",
-      "date_last_changed": "2026-06-10T09:07:05.187446"
+      "date_inserted": "2026-06-11T09:53:51.101928",
+      "date_last_changed": "2026-06-11T09:53:51.101929"
     },
     {
       "source": "AutoScout24",
@@ -156,8 +130,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-e-four-luxury-line-elektro-benzin-weiss-cat_ma43mo20491-5a7fd1aa-8718-4d55-9c8f-d05d41476f85",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187453",
-      "date_last_changed": "2026-06-10T09:07:05.187454"
+      "date_inserted": "2026-06-11T09:53:51.101940",
+      "date_last_changed": "2026-06-11T09:53:51.101942"
     },
     {
       "source": "AutoScout24",
@@ -182,8 +156,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-2-5-hybrid-300h-kamera-automatik-elektro-benzin-schwarz-cat_ma43mo20491-35c2ee29-b860-4c2f-b1dd-eee11bcb7476",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187460",
-      "date_last_changed": "2026-06-10T09:07:05.187461"
+      "date_inserted": "2026-06-11T09:53:51.101952",
+      "date_last_changed": "2026-06-11T09:53:51.101953"
     },
     {
       "source": "AutoScout24",
@@ -208,8 +182,34 @@
       "country": "FR",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-450h-4wd-3-5-v6-bv-e-cvt-450h-elektro-benzin-weiss-cat_ma43mo19238-9c61ccda-f519-46eb-a4fd-cc0b41957bb0",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657939",
-      "date_last_changed": "2026-06-10T09:06:38.657940"
+      "date_inserted": "2026-06-11T09:53:21.893816",
+      "date_last_changed": "2026-06-11T09:53:21.893817"
+    },
+    {
+      "source": "AutoScout24",
+      "listing_id": "554520c6-0801-4354-b149-54a7a55f738e",
+      "model": "Lexus RX",
+      "variant": "RX 300",
+      "title": "",
+      "description_de": "",
+      "price_eur": 23990,
+      "price_label": "",
+      "prev_price_eur": null,
+      "first_registration": "04/2016",
+      "year": "2016",
+      "mileage": "85.400 km",
+      "fuel": "Benzin",
+      "transmission": "Automatik",
+      "color": "Weiß",
+      "sunroof": "Nein",
+      "no_accident": "Ja",
+      "previous_owners": null,
+      "city": "MIJAS",
+      "country": "ES",
+      "link": "https://www.autoscout24.de/angebote/lexus-rx-300-benzin-weiss-cat_ma43mo16404-554520c6-0801-4354-b149-54a7a55f738e",
+      "description_fa": "",
+      "date_inserted": "2026-06-11T09:53:21.893828",
+      "date_last_changed": "2026-06-11T09:53:21.893829"
     },
     {
       "source": "AutoScout24",
@@ -234,8 +234,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-e-four-executive-line-led-cam-leder-shz-elektro-benzin-schwarz-cat_ma43mo75908-f3e5281f-9114-4268-a0ce-d1e3f7a7e2c9",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187467",
-      "date_last_changed": "2026-06-10T09:07:05.187468"
+      "date_inserted": "2026-06-11T09:53:51.101962",
+      "date_last_changed": "2026-06-11T09:53:51.101963"
     },
     {
       "source": "AutoScout24",
@@ -260,8 +260,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-sport-line-leder-pano-r-cam-navi-shz-led-elektro-benzin-cat_ma43mo20491-3080e73f-db1e-4d35-94fd-d7d82e9216b1",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187478",
-      "date_last_changed": "2026-06-10T09:07:05.187479"
+      "date_inserted": "2026-06-11T09:53:51.101977",
+      "date_last_changed": "2026-06-11T09:53:51.101978"
     },
     {
       "source": "AutoScout24",
@@ -286,8 +286,34 @@
       "country": "IT",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-3-5-luxury-263cv-cvt-elektro-benzin-cat_ma43mo19238-34065cf9-bb32-481f-a4e6-e9640c8f2bfe",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657949",
-      "date_last_changed": "2026-06-10T09:06:38.657950"
+      "date_inserted": "2026-06-11T09:53:21.893868",
+      "date_last_changed": "2026-06-11T09:53:21.893869"
+    },
+    {
+      "source": "AutoScout24",
+      "listing_id": "a039dde5-c69d-40e0-aa4b-c32fabb59895",
+      "model": "Lexus RX",
+      "variant": "RX 450h",
+      "title": "RX 450h 3.5i V6 Executive Line E-CVT",
+      "description_de": "",
+      "price_eur": 24900,
+      "price_label": "",
+      "prev_price_eur": null,
+      "first_registration": "07/2016",
+      "year": "2016",
+      "mileage": "215.568 km",
+      "fuel": "Elektro/Benzin",
+      "transmission": "Automatik",
+      "color": "Silber",
+      "sunroof": "Nein",
+      "no_accident": "Ja",
+      "previous_owners": null,
+      "city": "Itterbeek",
+      "country": "BE",
+      "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-3-5i-v6-executive-line-e-cvt-elektro-benzin-silber-cat_ma43mo19238-a039dde5-c69d-40e0-aa4b-c32fabb59895",
+      "description_fa": "",
+      "date_inserted": "2026-06-11T09:53:21.893882",
+      "date_last_changed": "2026-06-11T09:53:21.893883"
     },
     {
       "source": "AutoScout24",
@@ -312,8 +338,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-h-amazing-edition-ahk-led-kamera-elektro-benzin-grau-cat_ma43mo20491-6864a083-66e5-4f70-8dc2-2119c380349d",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187485",
-      "date_last_changed": "2026-06-10T09:07:05.187485"
+      "date_inserted": "2026-06-11T09:53:51.101987",
+      "date_last_changed": "2026-06-11T09:53:51.101988"
     },
     {
       "source": "AutoScout24",
@@ -338,8 +364,8 @@
       "country": "FR",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-f-sport-executive-sonstige-schwarz-cat_ma43mo19238-64ec46f4-d7ec-45be-9e66-3d4d7412e633",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657964",
-      "date_last_changed": "2026-06-10T09:06:38.657965"
+      "date_inserted": "2026-06-11T09:53:21.893892",
+      "date_last_changed": "2026-06-11T09:53:21.893893"
     },
     {
       "source": "AutoScout24",
@@ -364,8 +390,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-nx-300h-limited-edition-elektro-benzin-weiss-cat_ma43mo75908-7723351f-6709-4ffc-a692-51329fd21bf5",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187491",
-      "date_last_changed": "2026-06-10T09:07:05.187492"
+      "date_inserted": "2026-06-11T09:53:51.101997",
+      "date_last_changed": "2026-06-11T09:53:51.101998"
     },
     {
       "source": "AutoScout24",
@@ -390,8 +416,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-luxury-line-led-hud-pano-leder-360-4xshz-elektro-benzin-grau-cat_ma43mo19238-f32ed63a-73fa-4fe4-941f-14180abf5e45",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657985",
-      "date_last_changed": "2026-06-10T09:06:38.657986"
+      "date_inserted": "2026-06-11T09:53:21.893903",
+      "date_last_changed": "2026-06-11T09:53:21.893904"
     },
     {
       "source": "AutoScout24",
@@ -416,8 +442,8 @@
       "country": "IT",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-iv-3-5-luxury-263cv-cvt-prezzo-piu-iva-elektro-benzin-blau-cat_ma43mo19238-7892c19b-8ec6-4c90-8031-c67760e9756a",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657888",
-      "date_last_changed": "2026-06-10T09:06:38.657897"
+      "date_inserted": "2026-06-11T09:53:21.893742",
+      "date_last_changed": "2026-06-11T09:53:21.893751"
     },
     {
       "source": "AutoScout24",
@@ -442,8 +468,8 @@
       "country": "FR",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-3-5-v6-313-e-four-f-sport-e-cvt-benzin-schwarz-cat_ma43mo19238-e80fa651-625f-43f9-9108-79e132556516",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.657993",
-      "date_last_changed": "2026-06-10T09:06:38.657993"
+      "date_inserted": "2026-06-11T09:53:21.893913",
+      "date_last_changed": "2026-06-11T09:53:21.893914"
     },
     {
       "source": "AutoScout24",
@@ -468,8 +494,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-executive-line-bi-led-cam-leder-el-sitze-elektro-benzin-silber-cat_ma43mo75908-8ae64211-7365-4ec7-bc1d-4489ed9bb485",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187498",
-      "date_last_changed": "2026-06-10T09:07:05.187499"
+      "date_inserted": "2026-06-11T09:53:51.102008",
+      "date_last_changed": "2026-06-11T09:53:51.102009"
     },
     {
       "source": "AutoScout24",
@@ -494,8 +520,8 @@
       "country": "NL",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-4wd-executive-2000kg-trekgewicht-schuifdak-elektro-benzin-schwarz-cat_ma43mo19238-ad16315b-9f91-4104-af51-4e9e85b1c90f",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658127",
-      "date_last_changed": "2026-06-10T09:06:38.658128"
+      "date_inserted": "2026-06-11T09:53:21.894119",
+      "date_last_changed": "2026-06-11T09:53:21.894121"
     },
     {
       "source": "AutoScout24",
@@ -520,8 +546,34 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-2-5-hybrid-4x4-launch-+led-+navi-+sitzheizung-+pdc-elektro-benzin-schwarz-cat_ma43mo75908-9e7c3869-348e-4aa3-a82f-4b76d2daa876",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187506",
-      "date_last_changed": "2026-06-10T09:07:05.187507"
+      "date_inserted": "2026-06-11T09:53:51.102019",
+      "date_last_changed": "2026-06-11T09:53:51.102020"
+    },
+    {
+      "source": "AutoScout24",
+      "listing_id": "16e8bebc-10e3-4213-9750-c0fcb2f733dd",
+      "model": "Lexus NX",
+      "variant": "NX 300",
+      "title": "300h E-FOUR Launch Edition",
+      "description_de": "",
+      "price_eur": 26440,
+      "price_label": "Top Preis",
+      "prev_price_eur": null,
+      "first_registration": "06/2018",
+      "year": "2018",
+      "mileage": "58.167 km",
+      "fuel": "Elektro/Benzin",
+      "transmission": "Automatik",
+      "color": "Silber",
+      "sunroof": "Nein",
+      "no_accident": "Ja",
+      "previous_owners": 2,
+      "city": "Mühldorf",
+      "country": "DE",
+      "link": "https://www.autoscout24.de/angebote/lexus-nx-300-300h-e-four-launch-edition-elektro-benzin-silber-cat_ma43mo20491-16e8bebc-10e3-4213-9750-c0fcb2f733dd",
+      "description_fa": "",
+      "date_inserted": "2026-06-11T09:53:51.102061",
+      "date_last_changed": "2026-06-11T09:53:51.102064"
     },
     {
       "source": "AutoScout24",
@@ -546,34 +598,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-lexus-nx300h-executive-e-four-top-gepflegt-voll-elektro-benzin-schwarz-cat_ma43mo75908-c853c860-a110-48fb-981e-04361a2a1de1",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187515",
-      "date_last_changed": "2026-06-10T09:07:05.187516"
-    },
-    {
-      "source": "AutoScout24",
-      "listing_id": "554520c6-0801-4354-b149-54a7a55f738e",
-      "model": "Lexus RX",
-      "variant": "RX 300",
-      "title": "",
-      "description_de": "",
-      "price_eur": 26500,
-      "price_label": "",
-      "prev_price_eur": null,
-      "first_registration": "04/2016",
-      "year": "2016",
-      "mileage": "85.400 km",
-      "fuel": "Benzin",
-      "transmission": "Automatik",
-      "color": "Weiß",
-      "sunroof": "Nein",
-      "no_accident": "Ja",
-      "previous_owners": null,
-      "city": "MIJAS",
-      "country": "ES",
-      "link": "https://www.autoscout24.de/angebote/lexus-rx-300-benzin-weiss-cat_ma43mo16404-554520c6-0801-4354-b149-54a7a55f738e",
-      "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658135",
-      "date_last_changed": "2026-06-10T09:06:38.658136"
+      "date_inserted": "2026-06-11T09:53:51.102078",
+      "date_last_changed": "2026-06-11T09:53:51.102079"
     },
     {
       "source": "AutoScout24",
@@ -598,8 +624,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-nx-300h-amazing-edition-aut-led-cam-tempo-shz-lhz-elektro-benzin-weiss-cat_ma43mo75908-0c2e05ee-47af-4cc2-befe-08a10981c407",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187403",
-      "date_last_changed": "2026-06-10T09:07:05.187412"
+      "date_inserted": "2026-06-11T09:53:51.101903",
+      "date_last_changed": "2026-06-11T09:53:51.101912"
     },
     {
       "source": "AutoScout24",
@@ -607,7 +633,7 @@
       "model": "Lexus NX",
       "variant": "NX 300h",
       "title": "NX 300h Amazing Edition Aut.*LED*CAM*TEMPO*SHZ*LHZ",
-      "description_de": "",
+      "description_de": "Sitzheizung, Beheizbares Lenkrad, MP3, Seitenairbag, Einparkhilfe Rückfahrkamera, Scheckheftgepflegt, Alufelgen, Abstandstempomat",
       "price_eur": 26720,
       "price_label": "Guter Preis",
       "prev_price_eur": null,
@@ -624,12 +650,12 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-nx-300h-amazing-edition-aut-led-cam-tempo-shz-lhz-elektro-benzin-weiss-cat_ma43mo75908-ec819f95-98a9-4514-9172-d20c72b7603b",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187522",
-      "date_last_changed": "2026-06-10T09:07:05.187523"
+      "date_inserted": "2026-06-11T09:53:51.102095",
+      "date_last_changed": "2026-06-11T09:53:51.102096"
     },
     {
       "source": "AutoScout24",
-      "listing_id": "058aa86d-c49d-454a-b73e-e77c27094a74",
+      "listing_id": "4a0bba83-e96f-44a2-b849-98104ed4fc2b",
       "model": "Lexus RX",
       "variant": "RX 450h",
       "title": "RX450H E-four Privilege !! Vermittlungsverkauf !!",
@@ -648,10 +674,10 @@
       "previous_owners": 2,
       "city": "Micheldorf",
       "country": "AT",
-      "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx450h-e-four-privilege-vermittlungsverkauf-elektro-benzin-grau-cat_ma43mo19238-058aa86d-c49d-454a-b73e-e77c27094a74",
+      "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx450h-e-four-privilege-vermittlungsverkauf-elektro-benzin-grau-cat_ma43mo19238-4a0bba83-e96f-44a2-b849-98104ed4fc2b",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658142",
-      "date_last_changed": "2026-06-10T09:06:38.658142"
+      "date_inserted": "2026-06-11T09:53:21.894134",
+      "date_last_changed": "2026-06-11T09:53:21.894135"
     },
     {
       "source": "AutoScout24",
@@ -676,8 +702,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-executive-tecno-executive-tecno-elektro-benzin-cat_ma43mo19238-dcaac0af-bc74-4da2-b235-4d329124e56a",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658152",
-      "date_last_changed": "2026-06-10T09:06:38.658152"
+      "date_inserted": "2026-06-11T09:53:21.894148",
+      "date_last_changed": "2026-06-11T09:53:21.894149"
     },
     {
       "source": "AutoScout24",
@@ -702,8 +728,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-300h-e-four-luxury-line-elektro-benzin-cat_ma43mo20491-2b661d77-c8b3-44f7-bda9-83c960b8d6ec",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187531",
-      "date_last_changed": "2026-06-10T09:07:05.187532"
+      "date_inserted": "2026-06-11T09:53:51.102108",
+      "date_last_changed": "2026-06-11T09:53:51.102109"
     },
     {
       "source": "AutoScout24",
@@ -728,8 +754,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-leder-navikamera-led-scheinwerf-1-hand-elektro-benzin-grau-cat_ma43mo20491-b56fe008-4318-4eed-93b1-22041e8ccfb5",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187538",
-      "date_last_changed": "2026-06-10T09:07:05.187538"
+      "date_inserted": "2026-06-11T09:53:51.102117",
+      "date_last_changed": "2026-06-11T09:53:51.102118"
     },
     {
       "source": "AutoScout24",
@@ -754,8 +780,8 @@
       "country": "FR",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-luxe-sonstige-schwarz-cat_ma43mo19238-aaef4f51-6a35-427d-bef8-a5b3611f08fe",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658158",
-      "date_last_changed": "2026-06-10T09:06:38.658159"
+      "date_inserted": "2026-06-11T09:53:21.894157",
+      "date_last_changed": "2026-06-11T09:53:21.894159"
     },
     {
       "source": "AutoScout24",
@@ -780,34 +806,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-e-four-executive-line-led-acc-leder-cam-elektro-benzin-schwarz-cat_ma43mo75908-f9d2e5cc-803b-4477-a334-f45f3d3cee78",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187545",
-      "date_last_changed": "2026-06-10T09:07:05.187545"
-    },
-    {
-      "source": "AutoScout24",
-      "listing_id": "f7a0cd11-8888-463f-9be6-1b182d6c924c",
-      "model": "Lexus RX",
-      "variant": "RX 450h",
-      "title": "4WD |Stoelkoeling |Stuurwielverwarming |Elektrisch",
-      "description_de": "Alarmanlage, HU/AU neu, Sitzheizung, Getönte Scheiben, Abstandstempomat, LED-Scheinwerfer, Multifunktionslenkrad, Radio",
-      "price_eur": 28950,
-      "price_label": "",
-      "prev_price_eur": null,
-      "first_registration": "03/2017",
-      "year": "2017",
-      "mileage": "168.106 km",
-      "fuel": "Elektro/Benzin",
-      "transmission": "Automatik",
-      "color": "Schwarz",
-      "sunroof": "Nein",
-      "no_accident": "Ja",
-      "previous_owners": null,
-      "city": "LEENDE",
-      "country": "NL",
-      "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-4wd-stoelkoeling-stuurwielverwarming-elektrisch-elektro-benzin-schwarz-cat_ma43mo19238-f7a0cd11-8888-463f-9be6-1b182d6c924c",
-      "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658170",
-      "date_last_changed": "2026-06-10T09:06:38.658170"
+      "date_inserted": "2026-06-11T09:53:51.102126",
+      "date_last_changed": "2026-06-11T09:53:51.102127"
     },
     {
       "source": "AutoScout24",
@@ -832,8 +832,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-nx-hybrid-e-four-f-sport-lexus-software-upgrade-fuer-apple-carplay-und-android-auto-direkt-auf-dem-werksbildschirm-elektro-benzin-grau-cat_ma43mo75908-8d312975-3395-472a-8d9f-07f8c5932bd1",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187554",
-      "date_last_changed": "2026-06-10T09:07:05.187555"
+      "date_inserted": "2026-06-11T09:53:51.102140",
+      "date_last_changed": "2026-06-11T09:53:51.102140"
     },
     {
       "source": "AutoScout24",
@@ -858,8 +858,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-business-elektro-benzin-schwarz-cat_ma43mo19238-74600279-dd94-4f70-9081-c3431f02c246",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658177",
-      "date_last_changed": "2026-06-10T09:06:38.658178"
+      "date_inserted": "2026-06-11T09:53:21.894167",
+      "date_last_changed": "2026-06-11T09:53:21.894168"
     },
     {
       "source": "AutoScout24",
@@ -884,8 +884,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-executive-elektro-benzin-violett-cat_ma43mo19238-72e4150a-c673-444c-8256-20024bf0d89f",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:38.658186",
-      "date_last_changed": "2026-06-10T09:06:38.658187"
+      "date_inserted": "2026-06-11T09:53:21.894178",
+      "date_last_changed": "2026-06-11T09:53:21.894179"
     },
     {
       "source": "AutoScout24",
@@ -910,8 +910,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-executive-elektro-benzin-violett-cat_ma43mo19238-5617a15e-c939-4d6b-b7f6-d8642d627734",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397550",
-      "date_last_changed": "2026-06-10T09:06:40.397559"
+      "date_inserted": "2026-06-11T09:53:23.603607",
+      "date_last_changed": "2026-06-11T09:53:23.603616"
     },
     {
       "source": "AutoScout24",
@@ -936,8 +936,8 @@
       "country": "FR",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-450h-4wd-luxe-euro6d-t-elektro-benzin-grau-cat_ma43mo19238-e421274c-239c-4462-9ecc-ce865e841cc9",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397569",
-      "date_last_changed": "2026-06-10T09:06:40.397570"
+      "date_inserted": "2026-06-11T09:53:23.603630",
+      "date_last_changed": "2026-06-11T09:53:23.603632"
     },
     {
       "source": "AutoScout24",
@@ -962,8 +962,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-executive-elektro-benzin-violett-cat_ma43mo19238-c7ba4808-db13-48d9-959c-440f13053acb",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397579",
-      "date_last_changed": "2026-06-10T09:06:40.397580"
+      "date_inserted": "2026-06-11T09:53:23.603645",
+      "date_last_changed": "2026-06-11T09:53:23.603646"
     },
     {
       "source": "AutoScout24",
@@ -988,8 +988,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-executive-elektro-benzin-violett-cat_ma43mo19238-35e4e069-12ad-49af-bfd5-1a4ac612cc4a",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397587",
-      "date_last_changed": "2026-06-10T09:06:40.397588"
+      "date_inserted": "2026-06-11T09:53:23.603658",
+      "date_last_changed": "2026-06-11T09:53:23.603659"
     },
     {
       "source": "AutoScout24",
@@ -1014,8 +1014,8 @@
       "country": "ES",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-executive-elektro-benzin-violett-cat_ma43mo19238-31770f31-134e-40f8-b5f4-33b82c7ba72c",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397595",
-      "date_last_changed": "2026-06-10T09:06:40.397596"
+      "date_inserted": "2026-06-11T09:53:23.603670",
+      "date_last_changed": "2026-06-11T09:53:23.603671"
     },
     {
       "source": "AutoScout24",
@@ -1040,8 +1040,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-450h-awd-elektro-benzin-weiss-cat_ma43mo19238-73c1f038-eb91-452a-a9cb-6f87de43600d",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397601",
-      "date_last_changed": "2026-06-10T09:06:40.397602"
+      "date_inserted": "2026-06-11T09:53:23.603680",
+      "date_last_changed": "2026-06-11T09:53:23.603681"
     },
     {
       "source": "AutoScout24",
@@ -1066,8 +1066,8 @@
       "country": "NL",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-garantie-lexus-onderhouden-stoelkoeling-schuifdak-elektro-benzin-grau-cat_ma43mo19238-804f546b-47a8-4124-b49d-96494e48112a",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397608",
-      "date_last_changed": "2026-06-10T09:06:40.397609"
+      "date_inserted": "2026-06-11T09:53:23.603690",
+      "date_last_changed": "2026-06-11T09:53:23.603691"
     },
     {
       "source": "AutoScout24",
@@ -1092,8 +1092,8 @@
       "country": "IT",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-luxury-rx-450h-hev-elektro-benzin-schwarz-cat_ma43mo19238-4a2cf075-6b30-44b2-901d-8e173a5bf142",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397615",
-      "date_last_changed": "2026-06-10T09:06:40.397616"
+      "date_inserted": "2026-06-11T09:53:23.603701",
+      "date_last_changed": "2026-06-11T09:53:23.603702"
     },
     {
       "source": "AutoScout24",
@@ -1118,8 +1118,8 @@
       "country": "BE",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-rx-450h-hybrid-luxury-line-elektro-benzin-silber-cat_ma43mo19238-c5e000ab-0550-4036-89c8-8cb803df9cc1",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397628",
-      "date_last_changed": "2026-06-10T09:06:40.397628"
+      "date_inserted": "2026-06-11T09:53:23.603720",
+      "date_last_changed": "2026-06-11T09:53:23.603721"
     },
     {
       "source": "AutoScout24",
@@ -1144,8 +1144,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-h-amazing-edition-led-shz-pdc-elektro-benzin-schwarz-cat_ma43mo20491-0cfd8fbb-9e23-46c3-b0eb-7f66431071a3",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187561",
-      "date_last_changed": "2026-06-10T09:07:05.187562"
+      "date_inserted": "2026-06-11T09:53:51.102149",
+      "date_last_changed": "2026-06-11T09:53:51.102150"
     },
     {
       "source": "AutoScout24",
@@ -1170,8 +1170,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-h-amazing-edition-led-shz-pdc-benzin-schwarz-cat_ma43mo20491-0008a11d-96cb-41d1-8435-a0e459ac8472",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:05.187567",
-      "date_last_changed": "2026-06-10T09:07:05.187568"
+      "date_inserted": "2026-06-11T09:53:51.102158",
+      "date_last_changed": "2026-06-11T09:53:51.102159"
     },
     {
       "source": "AutoScout24",
@@ -1196,8 +1196,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300-h-leder-navi-shz-alu-led-kamera-elektro-benzin-braun-cat_ma43mo20491-e15b8f72-9cdf-47c5-be52-7877750284a9",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:06.646751",
-      "date_last_changed": "2026-06-10T09:07:06.646759"
+      "date_inserted": "2026-06-11T09:53:52.659070",
+      "date_last_changed": "2026-06-11T09:53:52.659079"
     },
     {
       "source": "AutoScout24",
@@ -1222,8 +1222,8 @@
       "country": "NL",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-4wd-trekhaak-leder-elektro-benzin-schwarz-cat_ma43mo19238-7882c523-e283-43b9-8dce-ee7cfbf25a80",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397633",
-      "date_last_changed": "2026-06-10T09:06:40.397634"
+      "date_inserted": "2026-06-11T09:53:23.603730",
+      "date_last_changed": "2026-06-11T09:53:23.603731"
     },
     {
       "source": "AutoScout24",
@@ -1248,8 +1248,8 @@
       "country": "NL",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-4wd-luxury-line-headup-dealer-ondh-2e-eig-orig-nl-elektro-benzin-grau-cat_ma43mo19238-7fadd267-5929-4425-aaaa-ed38172a56b1",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397639",
-      "date_last_changed": "2026-06-10T09:06:40.397640"
+      "date_inserted": "2026-06-11T09:53:23.603738",
+      "date_last_changed": "2026-06-11T09:53:23.603739"
     },
     {
       "source": "AutoScout24",
@@ -1274,8 +1274,8 @@
       "country": "NL",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-4wd-luxury-line-elektro-benzin-braun-cat_ma43mo19238-bbad8b51-2d7d-446a-8968-1c63d161c656",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397647",
-      "date_last_changed": "2026-06-10T09:06:40.397648"
+      "date_inserted": "2026-06-11T09:53:23.603750",
+      "date_last_changed": "2026-06-11T09:53:23.603751"
     },
     {
       "source": "AutoScout24",
@@ -1300,8 +1300,34 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-h-e-four-f-sport-leder-led-ahk-allw-elektro-benzin-grau-cat_ma43mo75908-b0303674-57e5-4fe4-937c-e91a6ae34b07",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:06.646770",
-      "date_last_changed": "2026-06-10T09:07:06.646771"
+      "date_inserted": "2026-06-11T09:53:52.659094",
+      "date_last_changed": "2026-06-11T09:53:52.659095"
+    },
+    {
+      "source": "AutoScout24",
+      "listing_id": "f3e82f16-009f-413c-892a-334e46ba7346",
+      "model": "Lexus NX",
+      "variant": "NX 300h",
+      "title": "E-Four Executive LED Navi Panorama AHK",
+      "description_de": "",
+      "price_eur": 29990,
+      "price_label": "Top Preis",
+      "prev_price_eur": null,
+      "first_registration": "02/2020",
+      "year": "2020",
+      "mileage": "74.998 km",
+      "fuel": "Elektro/Benzin",
+      "transmission": "Automatik",
+      "color": "Rot",
+      "sunroof": "Ja",
+      "no_accident": "Ja",
+      "previous_owners": null,
+      "city": "Dresden",
+      "country": "DE",
+      "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-e-four-executive-led-navi-panorama-ahk-elektro-benzin-rot-cat_ma43mo75908-f3e82f16-009f-413c-892a-334e46ba7346",
+      "description_fa": "",
+      "date_inserted": "2026-06-11T09:53:52.659108",
+      "date_last_changed": "2026-06-11T09:53:52.659109"
     },
     {
       "source": "AutoScout24",
@@ -1326,8 +1352,8 @@
       "country": "DE",
       "link": "https://www.autoscout24.de/angebote/lexus-nx-300h-e-four-luxury-line-elektro-benzin-cat_ma43mo75908-053e2ea7-e5d1-489a-97a4-be99da1834bd",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:07:06.646781",
-      "date_last_changed": "2026-06-10T09:07:06.646782"
+      "date_inserted": "2026-06-11T09:53:52.659122",
+      "date_last_changed": "2026-06-11T09:53:52.659123"
     },
     {
       "source": "AutoScout24",
@@ -1352,8 +1378,8 @@
       "country": "IT",
       "link": "https://www.autoscout24.de/angebote/lexus-rx-450h-elektro-benzin-cat_ma43mo19238-348b1e9a-607c-4368-8c17-88b5b878fafc",
       "description_fa": "",
-      "date_inserted": "2026-06-10T09:06:40.397656",
-      "date_last_changed": "2026-06-10T09:06:40.397656"
+      "date_inserted": "2026-06-11T09:53:23.603762",
+      "date_last_changed": "2026-06-11T09:53:23.603763"
     }
   ]
 }
